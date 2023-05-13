@@ -17,8 +17,12 @@ nav {background-color: yellow;
     margin: 25px;
     padding: 10px;
     border: 5px solid;
-
 }
+
+a {color: blue;}
+css/estilo.css
+
+
 
 header {background-color: blue;
     margin: 25px;
@@ -34,4 +38,45 @@ aside {background-color: red;
     margin: 25px;
     padding: 10px;
     border: 5px solid;
+}
+
+footer {
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    border: 5px solid;
+    
+}
+
+.imagen-ig {
+    width: 50px;
+    height: 50px;
+
+    
+}
+
+.imagen-fb {
+    width: 50px;
+    height: 50px;
+}    
+
+.imagen-tt {
+    width: 50px;
+    height: 50px;
+}
+
+.imagen-wsp {
+    width: 100px;
+    height: 100px;
+    float:right;
+
+    
+    
+}
+
+.btn-wsp {
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    position:fixed;
 }
