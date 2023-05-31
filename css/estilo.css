@@ -1,99 +1,157 @@
+@font-face {
+    font-family: "random";
+    src: url(../random2.ttf)
+    format("truetype");
+}
+
+
 body { 
     background-color:grey;
     background-image: url(../imagenes/fondo-gris3.jpg);
     background-repeat:top;
     background-attachment: fixed;
+ }
+
+
+h1 {
+    text-align: center;  
+    font-family: 'Bebas Neue', sans-serif;
+}  
+
+h3 {font-size:larger;
+   font-family: "random";
+   font-size: 1em;
+   
+
+}
+
+h2 {
+    font-family: "random";
     
     
+}
 
-    }
+p {
+    font-family: "random";
+    font-size: medium;
+}
+
+li {
+    font-family: "random";
+    font-size: 1em;
+    width: 47%;
+}
+
+ul{
+    width: 47%;
+}
+
+ol{
+    width: 47%;
+}
 
 
-h1 {text-align: center; text-decoration:underline; color: black;}  
-
-h3 {font-size:larger;}
 
 img {
-    border-radius: 5px;
-    
+    border-radius: 3px ;
 }
 
-nav { text-align: center;
-    margin: 25px;
-    padding: 10px;
-    border: 5px solid;
-    
-}
+
 
 div {
     display: flex;
-    justify-content:space-around;
-    border: 5% solid;
-    
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px;
+    padding: 10px;
+    font-family: "random";
+
 }
 
-a {color: blue;}
+a {
+  color: black;
+  text-decoration: none;
+  
+}
+
+a:visited {color:blue;}
+a:active {color: aliceblue;}
+
 css/estilo.css
 
 
 
 header {
-    background-color: red;
-    text-align: center;
+    width: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: start;
+    width: 94vw;
+    
+}
+
+nav { text-align: center;
+    border: 5px solid;
     margin: 25px;
     padding: 10px;
-    border: 5px solid;
-    flex-wrap: wrap;
-    justify-content: space-around
-    flex
+    justify-content: space-around;
+    width: 94vw;
+    
 }
 
 
 section {
-    margin: 25px;
-    padding: 10px;
     border: 5px solid;
     text-align: center;
-    
-    
-    
-    
+    margin: 25px;
+    padding: 10px;
+    width: 94vw;
 }
 
 
 aside {
-    margin: 25px;
-    padding: 10px;
     border: 5px solid;
     display: flex;
     justify-content: space-around;
-    
-}
-
-.imagen-condimento {
-    width: 19%;
-    height: 19%;
-}
-
-.imagen-preparacion {
-    width: 21%;
-    height: 21%;
+    margin: 25px;
+    padding: 10px;
+    font-family: "random";
+    width: 94vw;
 }
 
 footer {
-    margin: 25px;
-    padding: 10px;
-    border: 5px solid;
     display: flex;
     justify-content: space-around;
-    
-    
+    align-items: center;
+    margin: 25px;
+    padding: 10px;
+    width: 94vw;
+    border: 5px solid;
 }
+
+
+.empanada-carne {
+    border: 1px outset;
+    width: 35%;
+
+}
+
+.imagen-condimento {
+    border: 1px outset;
+    width: 23%;
+}
+
+.imagen-preparacion {
+    border: 1px outset;
+    width: 23%;
+}
+
+
 
 .imagen-ig {
     width: 50px;
     height: 50px;
-    justify-content:center;
 
     
 }
@@ -113,9 +171,6 @@ footer {
     width: 100px;
     height: 100px;
     float:right;
-
-    
-    
 }
 
 .btn-wsp {
@@ -127,11 +182,10 @@ footer {
 }
 
 iframe {
-    width: 150px; height: 150px;
+    width: 100px; height: 100px;
 }
 
 .redes-sociales {
-    background-color: red;
     display: flex;
     justify-content: space-around;
 
@@ -140,4 +194,22 @@ iframe {
 .bandera-arg {
     width: 5%;
     height: 5%;
+    justify-content: center;
 }
+
+.div-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista1 {
+    width: 47%;
+    
+}
+
+.lista2 {
+    width: 47%;
+    
+    
+}
+
